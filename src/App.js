@@ -58,8 +58,8 @@ class App extends Component {
         >
           <DialogTitle id="alert-dialog-title">{"User Details"}</DialogTitle>
           <DialogContent>
-            <div> Name: {this.props.userData.name}</div>
-           <div>First: {this.props.userData.username}</div>
+            <div>First Name: {this.props.userData.name}</div>
+           <div>Last Name: {this.props.userData.username}</div>
            <div>Phone: {this.props.userData.phone}</div>
           </DialogContent>
           <DialogActions>
